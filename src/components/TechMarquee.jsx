@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion';
 
 const items = [
-  'Python', 'Java', 'C', 'C++', 'HTML5', 'CSS3', 'JavaScript', 'React',
-  'Artificial Intelligence', 'Machine Learning', 'NLP', 'Data Analysis',
-  'Git', 'GitHub', 'VS Code', 'Google AI Studio',
+  'Python', 'Java', 'C', 'C++', 'JavaScript', 'React',
+  'Machine Learning', 'Deep Learning', 'Computer Vision',
+  'Generative AI', 'NLP', 'NumPy', 'Pandas', 'Scikit-learn',
+  'OpenCV', 'TensorFlow', 'PyTorch',
+  'Google Colab', 'Google AI Studio', 'Git', 'GitHub', 'VS Code',
 ];
 
 export default function TechMarquee() {
@@ -15,7 +17,7 @@ export default function TechMarquee() {
         <motion.div
           className="flex shrink-0 gap-8 items-center"
           animate={{ x: ['0%', '-50%'] }}
-          transition={{ duration: 30, repeat: Infinity, ease: 'linear' }}
+          transition={{ duration: 32, repeat: Infinity, ease: 'linear' }}
           style={{ willChange: 'transform' }}
         >
           {doubled.map((item, i) => (
