@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base Styles ── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  color: #1E1B2E;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+/* ── Selection ── */
+::selection {
+  background: rgba(236, 72, 153, 0.2);
+  color: #9D174D;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FDF2F8;
+}
+::-webkit-scrollbar-thumb {
+  background: #F472B6;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #EC4899;
+}
+
+/* ── Subtle Glassmorphism Card Style ── */
+.glass-pink {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(252, 231, 243, 0.8);
+}
+
+/* ── Reduced Motion Support ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── Focus Styles ── */
+:focus-visible {
+  outline: 2px solid #EC4899;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
