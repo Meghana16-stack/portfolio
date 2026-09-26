@@ -1,6 +1,6 @@
-# G Meghana — Computer Science & AI/ML Portfolio
+# G Meghana — B.Tech CSM (AI & ML) Portfolio
 
-> Premium, responsive, modern personal portfolio website showcasing skills, projects, and academic background in Computer Science & Artificial Intelligence / Machine Learning.
+> Premium, responsive, modern personal portfolio website showcasing skills, projects, and academic background in B.Tech CSM (Artificial Intelligence & Machine Learning).
 
 ## 🌸 About G Meghana
 - **Student**: G Meghana

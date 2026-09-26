@@ -56,7 +56,7 @@ export default function About() {
             className="lg:col-span-7 space-y-5 text-gray-700 leading-relaxed"
           >
             <p className="text-base sm:text-lg text-gray-800 font-medium leading-relaxed">
-              Hello! I'm <strong className="text-pink-600 font-bold">G Meghana</strong>, a Computer Science student interested in software development, artificial intelligence, machine learning and modern web technologies.
+              Hello! I'm <strong className="text-pink-600 font-bold">G Meghana</strong>, a B.Tech CSM (AI &amp; ML) student interested in software development, artificial intelligence, machine learning and modern web technologies.
             </p>
 
             <p className="text-base text-gray-600 leading-relaxed">

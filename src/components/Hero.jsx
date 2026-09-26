@@ -149,7 +149,7 @@ export default function Hero() {
               variants={item}
               className="text-lg sm:text-xl font-semibold bg-gradient-to-r from-pink-600 via-rose-500 to-pink-500 bg-clip-text text-transparent mb-5"
             >
-              Computer Science Student &amp; Aspiring Developer
+              CSM (AI &amp; ML) Student &amp; Aspiring Developer
             </motion.p>
 
             {/* Introduction */}
@@ -157,7 +157,7 @@ export default function Hero() {
               variants={item}
               className="text-base sm:text-lg text-gray-700 leading-relaxed mb-6 font-normal max-w-2xl"
             >
-              Hi, I'm Meghana. I'm a Computer Science student passionate about technology, software development, artificial intelligence, machine learning and building creative digital experiences.
+              Hi, I'm Meghana. I'm a CSM (Artificial Intelligence &amp; Machine Learning) student passionate about technology, software development, artificial intelligence, machine learning and building creative digital experiences.
             </motion.p>
 
             {/* Academic Details Pill Tag */}
