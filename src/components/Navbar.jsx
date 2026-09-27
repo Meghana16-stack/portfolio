@@ -6,7 +6,6 @@ const navLinks = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
-  { name: 'Projects', href: '#projects' },
   { name: 'Explore', href: '#expertise' },
   { name: 'Contact', href: '#contact' },
 ];
@@ -23,7 +22,7 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
-    const sections = ['home', 'about', 'skills', 'projects', 'expertise', 'contact'];
+    const sections = ['home', 'about', 'skills', 'expertise', 'contact'];
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach(entry => {

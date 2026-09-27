@@ -181,10 +181,10 @@ export default function Hero() {
               className="flex flex-wrap items-center gap-4"
             >
               <button
-                onClick={() => scrollTo('#projects')}
+                onClick={() => scrollTo('#skills')}
                 className="group px-7 py-3.5 bg-gradient-to-r from-pink-500 via-rose-500 to-pink-600 text-white text-sm font-semibold rounded-full hover:from-pink-600 hover:to-rose-600 transition-all duration-300 hover:-translate-y-0.5 shadow-lg shadow-pink-500/25 hover:shadow-pink-500/40 active:scale-95 flex items-center gap-2"
               >
-                <span>VIEW MY WORK</span>
+                <span>EXPLORE SKILLS</span>
                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
               </button>
 

@@ -2,7 +2,6 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
-import Projects from './components/Projects'
 import Expertise from './components/Expertise'
 import TechMarquee from './components/TechMarquee'
 import CareerFocus from './components/CareerFocus'
@@ -21,7 +20,6 @@ export default function App() {
         <Hero />
         <About />
         <Skills />
-        <Projects />
         <Expertise />
         <TechMarquee />
         <CareerFocus />
